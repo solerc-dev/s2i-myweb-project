@@ -1,0 +1,102 @@
+.nav {
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  color: rgb(250, 176, 55);
+  background-color: rgb(0, 0, 0);
+  border-radius: 0 0 0 150px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  z-index: 100;
+}
+
+.nav-left {
+  font-size: 28px;
+  margin-top: 16px;
+  margin-left: 90px;
+}
+
+.nav-right {
+  margin-right: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-self: end;
+  gap: 120px;
+  padding: 30px;
+}
+
+.bio-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(250, 176, 55);
+  position: relative;
+  border: none;
+  transition: .4s ease-in;
+  z-index: 1;
+  width: 80px;
+}
+
+.bio-button::before,
+.bio-button::after {
+  position:absolute;
+  content: "";
+  z-index: -1;
+}
+
+.bio-button:hover {
+  color: black;
+  background: rgb(250, 176, 55);
+  box-shadow: 0 0 5px rgb(250, 176, 55), 0 0 25px rgb(250, 176, 55), 0 0 50px rgb(250, 176, 55), 0 0 200px rgb(250, 176, 55);
+}
+
+.projects-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(250, 176, 55);
+  position: relative;
+  border: none;
+  transition: .4s ease-in;
+  z-index: 1;
+  width: 80px;
+}
+
+.projects-button::before,
+.projects-button::after {
+  position:absolute;
+  content: "";
+  z-index: -1;
+}
+
+.projects-button:hover {
+  color: black;
+  background: rgb(250, 176, 55);
+  box-shadow: 0 0 5px rgb(250, 176, 55), 0 0 25px rgb(250, 176, 55), 0 0 50px rgb(250, 176, 55), 0 0 200px rgb(250, 176, 55);
+}
+
+.contact-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(250, 176, 55);
+  position: relative;
+  border: none;
+  transition: .4s ease-in;
+  z-index: 1;
+  width: 80px;
+}
+
+.contact-button::before,
+.contact-button::after {
+  position:absolute;
+  content: "";
+  z-index: -1;
+}
+
+.contact-button:hover {
+  color: black;
+  background: rgb(250, 176, 55);
+  box-shadow: 0 0 5px rgb(250, 176, 55), 0 0 25px rgb(250, 176, 55), 0 0 50px rgb(250, 176, 55), 0 0 200px rgb(250, 176, 55);
+}
+

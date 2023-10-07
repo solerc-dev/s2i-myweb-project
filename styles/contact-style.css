@@ -1,0 +1,97 @@
+.contact-container {
+  background-color: #45cfdd;
+  background-image: linear-gradient(168deg, #45cfdd 0%, #6527be 40%);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+form {
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  padding: 1em;
+  background-color:  #000000;
+  color: rgb(250, 176, 55);
+  font-weight: bold;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  margin-right: 7px;
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em;
+  width: 400px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  padding-left: 180px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+.rrss-icons {
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  height: 40px;
+  margin-right: 50px;
+}
+
+.instagram-icon {
+  height: 48px;
+  margin-right: 50px;
+}
+
+.linkedin-icon {
+  height: 38px;
+  margin-right: 50px;
+}
+
+.pinterest-icon {
+  height: 40px;
+}

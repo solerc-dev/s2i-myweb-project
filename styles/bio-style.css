@@ -1,0 +1,40 @@
+.bio-container {
+  background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: grid;
+  grid-template-rows: 120vh;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bio-title {
+  font-size: 50px;
+  margin-left: 190px;
+  margin-bottom: 20px;
+  
+}
+
+.bio-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+}
+
+.pics-bio {
+  height: 18%;
+}
+
+.bio-center {
+  text-align: justify;
+  color: black;
+  font-size: 15px;
+  margin-top: 90px;
+}
+
+.bio-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+}

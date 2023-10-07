@@ -1,0 +1,48 @@
+.body-container {
+  height: 90vh;
+  background-image: linear-gradient(91deg, #ffffff 0%, #a7ede7 52%, #45cfdd 68%, #6527be 100%);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 90vh;
+}
+
+.left-body {
+  margin-left: 40px;
+  margin-top: 150px;
+}
+
+.hola-text {
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.sole-text {
+  font-size: 20px;
+}
+
+.my-pic {
+  margin-top: 70px;
+  margin-right: 200px;
+  height: 60%;
+}
+
+.my-pic, .pics-bio {
+  --m:
+    radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+      0 100%/46% 92% no-repeat,
+    radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+      100% 0/46% 92% no-repeat;
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale(.5);
+  transition: .4s linear;
+  cursor: pointer;
+}
+
+.my-pic:hover, .pics-bio:hover {
+  -webkit-mask-position: 7.5% 50%,92.5% 50%;
+          mask-position: 7.5% 50%,92.5% 50%;
+  filter: grayscale(0);
+}
