@@ -2,7 +2,7 @@
   background-color: white;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   display: grid;
-  grid-template-rows: 120vh;
+  grid-template-rows: 100vh;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -10,8 +10,8 @@
 .bio-title {
   font-size: 50px;
   margin-left: 190px;
-  margin-bottom: 20px;
-  
+  margin-bottom: 30px;
+  margin-top: 100;
 }
 
 .bio-left {
@@ -28,8 +28,9 @@
 .bio-center {
   text-align: justify;
   color: black;
-  font-size: 15px;
+  font-size: 13.8px;
   margin-top: 90px;
+  width: 100%;
 }
 
 .bio-right {
