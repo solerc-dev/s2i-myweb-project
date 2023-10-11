@@ -10,24 +10,24 @@
   display: flex;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-
   z-index: 100;
+  width: 100dvw;
 }
 
 .nav-left {
-  font-size: 28px;
-  margin-top: 16px;
-  margin-left: 90px;
+  font-size: 1.6em;
+  margin-top: 1.2rem;
+  margin-left: 5rem;
   flex-shrink: 0;
 }
 
 .nav-right {
-  margin-right: 140px;
+  margin-right: 2rem;
   display: flex;
   flex-direction: row;
-  justify-self: end;
-  gap: 120px;
-  padding: 30px;
+  justify-self: center;
+  gap: 10rem;
+  padding: 1.6rem;
   flex-shrink: 0;
 }
 
@@ -39,7 +39,7 @@
   border: none;
   transition: .4s ease-in;
   z-index: 1;
-  width: 120px;
+  width: 8rem;
   padding: 6px;
   cursor: pointer;
 }
@@ -65,7 +65,7 @@
   border: none;
   transition: .4s ease-in;
   z-index: 1;
-  width: 120px;
+  width: 8rem;
   padding: 6px;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@
   border: none;
   transition: .4s ease-in;
   z-index: 1;
-  width: 120px;
+  width: 8rem;
   padding: 6px;
   cursor: pointer;
 }
@@ -109,3 +109,23 @@
   font-size: larger;
 }
 
+@media (min-width: 820px) and (max-width: 1023px) {
+  .nav-left {
+    font-size: 1em;
+    margin-top: 1.8rem;
+    margin-left: 3rem;
+    flex-shrink: 0;
+  }
+
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 4rem;
+    flex-shrink: 0;
+  }
+  }
+
+  @media (max-width: 819px) {
+    
+  }

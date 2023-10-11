@@ -39,3 +39,38 @@
   justify-content: center;
   gap: 70px;
 }
+
+@media (min-width: 820px) and (max-width: 1023px) {
+  .bio-title {
+    font-size: 4em;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bio-left {
+    gap: 10rem;
+  }
+  
+  .pics-bio {
+    height: 14%;
+  }
+  
+  .bio-center {
+    text-align: justify;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .bio-right {
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 819px) {
+  .bio-title {
+    font-size: 20px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+    margin-top: 10;
+  }
+}
