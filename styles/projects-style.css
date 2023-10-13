@@ -5,36 +5,34 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 12rem;
 }
 
 .projects-title {
-  font-size: 50px;
-  margin-left: 20px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  font-size: 3em;
 }
 
 .buttons-projects {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 7%;
-  margin-top: 80px;
+  gap: 3rem;
 }
 
 .button-project {
+  height: 30vh;
+  width: 24vw;
   background-image: url(../images/start2impact.png);
   background-repeat: no-repeat;
-  opacity: 0.6;
-  height: 30vh;
-  width: 50vh;
   background-position: center;
-  border: none;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   background-size: contain;
+  opacity: 0.6;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .button-project:hover {
@@ -52,24 +50,39 @@
 }
 
 @media (min-width: 820px) and (max-width: 1023px) {
+  .projects-container {
+    gap: 05rem;
+  }
+
   .projects-title {
     font-size: 4em;
   }
 
   .buttons-projects {
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 5rem;
-    margin-top: 0;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .button-project {
+    height: 17vh;
+    width: 35vw;
+    background-image: url(../images/start2impact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.6;
+    border: none;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   }
 
-  .button-project {
-    height: 18vh;
-    width: 40vw;
   }
-}
+
+
 
 @media (max-width: 819px) {
     

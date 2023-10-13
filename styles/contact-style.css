@@ -5,14 +5,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
 
 .contact-title {
-  font-size: 50px;
-  margin-left: 20px;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  font-size: 3em;
+  padding-top: 6rem;
 }
 
 form {
@@ -27,7 +27,6 @@ form {
   flex-direction: column;
   justify-content: flex-start;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-
 }
 
 label {
@@ -73,10 +72,9 @@ textarea {
 }
 
 .rrss-icons {
-  height: 80px;
-  margin-top: 50px;
-  margin-bottom: 15px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
