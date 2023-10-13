@@ -82,12 +82,38 @@
 }
 
   @media (max-width: 819px) {
-    .hola-text {
-      font-weight: bold;
-      font-size: 1px;
+    .body-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   
+    .left-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90vw;
+    }
+    
+    .right-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+      padding: 5em;
+    }
+    
+    .hola-text {
+      font-weight: bold;
+      font-size: 6em;
+    }
+    
+    .sole-text {
+      font-size: 0.8em;
+    }
+    
     .my-pic {
-      height: 6%;
+      max-width: 40vh;
     }
   }

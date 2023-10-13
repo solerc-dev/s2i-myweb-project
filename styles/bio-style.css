@@ -15,7 +15,6 @@
   align-items: center;
   gap: 5rem;
   width: 25vw;
-  padding-top: 7rem;
 }
 
 .pics-bio {
@@ -48,7 +47,6 @@
   align-items: center;
   gap: 5rem;
   width: 25vw;
-  padding-top: 7rem;
 }
 
 @media (min-width: 820px) and (max-width: 1023px) {
@@ -86,10 +84,50 @@
 }
 
 @media (max-width: 819px) {
+  .bio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+  }
+  
+  .bio-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .pics-bio {
+    width: 15vw;
+  }
+  
+  .bio-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 65vh;
+  }
+  
   .bio-title {
-    font-size: 20px;
-    margin-left: 190px;
-    margin-bottom: 30px;
-    margin-top: 10;
+    font-size: 2em;
+    padding-top: 2rem;
+  }
+  
+  .bio-text {
+    text-align: justify;
+    font-size: 0.5em;
+  }
+  
+  .bio-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 }

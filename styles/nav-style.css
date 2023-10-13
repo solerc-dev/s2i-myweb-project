@@ -22,6 +22,7 @@
   justify-content: center;
   flex-shrink: 0;
   width: 50vw;
+  padding-left: 4rem;
 }
 
 .nav-right {
@@ -129,30 +130,57 @@
 
   @media (max-width: 819px) {
     .nav {
-      height: 90px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-
+    
     .nav-left {
-      font-size: 1em;
+      font-size: 1.3em;
+      width: 70vw;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      flex-shrink: 0;
+      align-items: center;
+      padding-left: 0;
     }
 
-    h3 {
-      margin-block: 0;
+    .nav-right {
+      gap: 1.2rem;
+      padding: 0;
+      width: 90vw;
+    }
+
+    .bio-button {
+      width: 6rem;
+    }
+
+    .bio-button:hover {
+      border: none;
+      font-weight: bold;
+      font-size: larger;
+    }
+
+    .projects-button {
+      width: 6rem;
+    }
+
+    .projects-button:hover {
+      border: none;
+      font-weight: bold;
+      font-size: larger;
+    }
+ 
+    .contact-button {
+      width: 6rem;
+    }
+
+    .contact-button:hover {
+      border: none;
+      font-weight: bold;
+      font-size: larger;
     }
     
-    .nav-right {
-      display: flex;
-      flex-direction: row;
-      gap: 0;
-      padding: 0;
-      flex-shrink: 0;
-    }
+
   }
