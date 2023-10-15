@@ -6,7 +6,9 @@ document.getElementById("form-button").addEventListener("click", function(event)
     var username = document.getElementById("username").value;
     var usermail = document.getElementById("usermail").value;
     var usermessage = document.getElementById("msg").value
-  
+
+    if(username && usermail && usermessage && usermail.includes("@") && usermail.includes(".")) {
+      
     emailjs
     .send(
       "service_6nf6s8m", // paste your ServiceID here (you'll get one when your service is created).
@@ -29,6 +31,12 @@ document.getElementById("form-button").addEventListener("click", function(event)
         alert("Something went wrong. Please try again.");
       }
     );
+
+    form.reset();
+    } else {
+      alert("Please fill in all forms and make sure your email is correct.")
+    }
+  
   
   });
 
