@@ -1,6 +1,7 @@
 .bio-container {
   height: 100vh;
-  background-color: white;
+  background-color: #45cfdd;
+  background-image: linear-gradient(347deg, #45cfdd 0%, #ffffff 16%);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   display: flex;
   flex-direction: row;
@@ -89,7 +90,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
   
   .bio-left {
@@ -109,18 +110,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 65vw;
+    width: 85vw;
     height: 65vh;
+    overflow: scroll;
   }
   
   .bio-title {
     font-size: 2em;
-    padding-top: 2rem;
   }
   
   .bio-text {
     text-align: justify;
-    font-size: 0.5em;
+    font-size: 1.5em;
+    height: 100%;
   }
   
   .bio-right {
@@ -129,5 +131,6 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    margin-top: 0.5rem;
   }
 }
