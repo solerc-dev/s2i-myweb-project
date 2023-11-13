@@ -1,11 +1,11 @@
 const form = document.getElementById("my-form"); 
-const hiddenDiv = document.getElementById("back-button")
+
 document.getElementById("form-button").addEventListener("click", function(event) {
   event.preventDefault();
     // Get values from the form inputs
     var username = document.getElementById("username").value;
     var usermail = document.getElementById("usermail").value;
-    var usermessage = document.getElementById("msg").value
+    var usermessage = document.getElementById("msg").value;
 
     if(username && usermail && usermessage && usermail.includes("@") && usermail.includes(".")) {
       
@@ -40,28 +40,4 @@ document.getElementById("form-button").addEventListener("click", function(event)
   
   });
 
-  function checkScroll() {
-
-    const scrollPosition = window.scrollY;
   
-    let offset = 200;
-  
-    if (scrollPosition > offset) {
-   
-      hiddenDiv.style.display = 'block';
-    } else {
-   
-      hiddenDiv.style.display = 'none';
-    }
-  }
-
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-
-  window.addEventListener("scroll",checkScroll)
-  
-  hiddenDiv.addEventListener("click", scrollToTop)

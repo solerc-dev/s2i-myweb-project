@@ -5,6 +5,10 @@
   font-family: 'Chakra Petch', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-container {
   display: flex;
   justify-content: center;

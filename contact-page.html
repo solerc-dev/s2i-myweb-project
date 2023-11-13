@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This website is Soledad Rodriguez Cid's first project made with HTML and CSS.">
+  <title>Soledad Rodriguez Cid Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general-style.css">
+  <link rel="stylesheet" href="styles/nav-style.css">
+  <link rel="stylesheet" href="styles/body-style.css">
+  <link rel="stylesheet" href="styles/bio-style.css">
+  <link rel="stylesheet" href="styles/projects-style.css">
+  <link rel="stylesheet" href="styles/contact-style.css">
+  <link rel="stylesheet" href="styles/footer-style.css">
+  
+  <script src="https://kit.fontawesome.com/e11d7c701d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="main-container">
+      <div class="container">
+        <div class="nav">
+          <div class="nav-left">
+            <h3>Soledad Rodríguez Cid</h3>
+          </div>
+          <div class="nav-right">
+            <a href="index.html"><button class="contact-button">BACK</button></a>
+          </div>
+        </div>
+        
+        <div class="contact-container" id="contact-container">
+          <h1 class="contact-title">
+            CONTACT.
+          </h1>
+
+          <form id="my-form">
+            <label for="name">Who are you?</label>
+            <input type="text" id="username" name="name" required>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="usermail" name="mail" required>
+            <label for="msg">Tell me!</label>
+            <textarea id="msg" name="usermessage"></textarea>
+            <button id="form-button">SEND</button>
+        
+          </form>
+              
+          <div class="rrss-icons">
+            <a href="https://github.com/solerc-dev" target="_blank">
+              <img class="github-icon" src="icons/github.svg" alt="GitHub icon/link.">
+              </a>
+            <a href="https://www.instagram.com/soledadesrc/" target="_blank">
+              <img class="instagram-icon" src="icons/instagram.svg" alt="Instagram icon/link.">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img class="linkedin-icon" src="icons/linkedin.svg" alt="Linkedin icon/link.">
+            </a>
+            <a href="https://www.pinterest.es/soledadesrc/" target="_blank">
+              <img class="pinterest-icon" src="icons/pinterest.svg" alt="Pinterest icon/link.">
+            </a>
+          </div>
+        </div>
+        <div class="footer">
+          Copyright © 2023 Soledad Rodríguez Cid
+        </div>
+      </div>
+    </div>
+
+  <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("niHXOuT6X1WYKA3rA");
+    })();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
